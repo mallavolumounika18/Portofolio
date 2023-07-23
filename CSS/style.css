@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color:#f9004d;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: auto;
+}
+#navbarText ul li a{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.navbarText ul li a :hover{
+    color:#f9004d;
+    transition: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    color:blue;
+    border: 2px solid blue ;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+ .card:hover{
+     background-color: palevioletred;
+ }
+ .container{
+    padding: 10px;
+    margin: auto;
+    background-color: darkgrey;
+ }
